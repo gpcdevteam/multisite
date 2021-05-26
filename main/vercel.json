@@ -1,7 +1,7 @@
 {
 	"rewrites": [
 		{
-			"source": "/en-us/:path(\\w*)",
+			"source": "/en-us/:path(\\w*)*",
 			"destination": "https://multisite-test-en-us.vercel.app/:path"
 		}
 	]
