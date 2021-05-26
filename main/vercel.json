@@ -1,7 +1,7 @@
 {
 	"rewrites": [
 		{
-			"source": "/en-us/:match",
+			"source": "/en-us/",
 			"destination": "https://multisite-test-en-us.vercel.app/:match"
 		}
 	]
