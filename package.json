@@ -1,0 +1,15 @@
+{
+	"name": "multisite",
+	"private": true,
+	"workspaces": [
+		"main",
+		"en-us"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev:en-us": "npm run dev --workspace=en-us",
+		"dev:main": "npm run dev --workspace=main",
+		"build:en-us": "npm run build --workspace=en-us",
+		"build:main": "npm run build --workspace=main"
+	}
+}
