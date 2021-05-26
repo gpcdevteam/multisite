@@ -2,7 +2,11 @@
 	"rewrites": [
 		{
 			"source": "/en-us/",
-			"destination": "https://multisite-test-en-us.vercel.app/:match"
+			"destination": "https://multisite-test-en-us.vercel.app/"
+		},
+		{
+			"source": "/en-us/interna/",
+			"destination": "https://multisite-test-en-us.vercel.app/interna/"
 		}
 	]
 }
